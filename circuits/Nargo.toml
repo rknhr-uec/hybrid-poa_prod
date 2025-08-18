@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "account_tree/leaf",
+    "account_tree/internal",
+    "account_tree/root",
+    "custodian_tree/leaf",
+    "custodian_tree/internal",
+    "custodian_tree/root",
+]

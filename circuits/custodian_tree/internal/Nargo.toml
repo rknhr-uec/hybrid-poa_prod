@@ -1,0 +1,7 @@
+[package]
+name = "custodian_tree_internal"
+type = "bin"
+authors = [""]
+
+[dependencies]
+lib = { path = "../../lib" }

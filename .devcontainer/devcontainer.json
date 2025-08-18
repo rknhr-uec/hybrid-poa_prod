@@ -1,0 +1,20 @@
+{
+	"name": "hybrid-poa",
+	"dockerComposeFile": ["docker-compose.yaml"],
+	"service": "vscode",
+	"runServices": ["vscode"],
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": ["noir-lang.vscode-noir", "tamasfe.even-better-toml"]
+		}
+	},
+	"remoteUser": "root",
+	"containerUser": "root",
+	"shutdownAction": "stopCompose",
+	"postCreateCommand": "yarn && curl -s https://install.aztec.network && aztec-up -v 1.1.2 | NON_INTERACTIVE=1 BIN_PATH=/usr/local/bin bash -s",
+	"workspaceFolder": "/root/workspace"
+}

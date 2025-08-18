@@ -1,0 +1,17 @@
+z/
+node_modules/
+target/
+src/artifacts/
+logs/
+store/
+dest/
+proof/
+out/
+cache/
+bench/result
+
+*bak
+.env
+.DS_Store
+codegenCache.json
+contracts/verifier_contract/lib.sol

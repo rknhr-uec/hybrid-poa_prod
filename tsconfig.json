@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "dest",
+    "target": "es2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "declaration": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "inlineSourceMap": true,
+    "declarationMap": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+  },
+  "include": [
+    "bench/**/*",
+    "scripts/**/*",
+    "test/**/*",
+    "**/target/**/*"
+  ]
+}

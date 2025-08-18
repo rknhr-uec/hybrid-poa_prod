@@ -1,0 +1,8 @@
+[package]
+name = "account_tree_internal"
+type = "bin"
+authors = [""]
+
+[dependencies]
+lib = { path = "../../lib" }
+

@@ -1,0 +1,10 @@
+services:
+  vscode:
+    image: hybrid-poa
+    container_name: hybrid-poa_dc
+    build: .
+    volumes:
+      - ../:/root/workspace
+      - ~/.ssh:/root/.ssh
+      - ~/.gitconfig:/root/.gitconfig
+    entrypoint: ['bash', '-c', 'while sleep 1000; do :; done']

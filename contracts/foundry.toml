@@ -1,0 +1,7 @@
+[profile.default]
+src = 'verifier_contract'
+out = 'out'
+solidity_version = '0.8.30'
+evm_version = 'cancun'
+optimizer = true
+optimizer_runs = 9999999

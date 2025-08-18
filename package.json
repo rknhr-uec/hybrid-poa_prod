@@ -1,0 +1,35 @@
+{
+  "name": "hybrid-poa",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "compile": "cd circuits && ./build.sh",
+    "compile:contracts": "cd contracts && ./build.sh",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@aztec/accounts": "1.1.2",
+    "@aztec/aztec-node": "1.1.2",
+    "@aztec/aztec.js": "1.1.2",
+    "@aztec/key-store": "1.1.2",
+    "@aztec/kv-store": "1.1.2",
+    "@aztec/noir-noir_js": "1.1.2",
+    "@aztec/pxe": "1.1.2",
+    "@aztec/stdlib": "1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "dotenv": "^17.2.1",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "viem": "^2.33.3",
+    "vitest": "^3.2.4",
+    "winston": "^3.17.0"
+  },
+  "resolutions": {
+    "c-kzg": "^4.1.0"
+  }
+}

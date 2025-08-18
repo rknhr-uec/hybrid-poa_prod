@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/dest": true,
+    "**/target": true,
+    "**/proof": true,
+    "**/store": true,
+    "**/codegenCache.json": true,
+    "**/-": true,
+    "**/out": true,
+    "**/cache": true,
+    // "logs": true,
+  },
+}
